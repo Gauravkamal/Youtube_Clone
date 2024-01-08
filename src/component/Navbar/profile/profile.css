@@ -1,0 +1,19 @@
+.profile{
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 2.5rem;
+    /* width: 100px; */
+    color: aqua;
+    /* background-image: url(../images/gauravprofile.jpeg); */
+}
+.profile img{
+    flex-shrink: 0%;
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    /* background-image: url(../images/gauravprofile.jpeg); */
+}

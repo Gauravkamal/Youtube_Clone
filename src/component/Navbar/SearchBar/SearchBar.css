@@ -1,0 +1,75 @@
+
+.SearchBar-Container{
+    /* border: 1px white transparent; */
+    margin: 0px 5px 0px 5px;
+    flex-grow: 2;
+    display: flex;
+    height: 2rem;
+    
+}
+.search-bar2{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Search-div{
+    display: flex;
+    height: 2rem;
+    position: relative;
+    /* border: white 1px solid; */
+    z-index: 91;
+}
+
+.iBox-SearchBar{
+    background-color: rgb(39, 37, 37);
+    width: 20rem;
+    border: 1px solid rgba(128,128,128,0.4);
+    color: rgb(254, 254, 254);
+    font-size: large;
+    /* padding: 0.2rem; */
+    /* height: auto; */
+    padding-left: 1rem;
+    filter: opacity(50%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.searchIcon-SearchBar{
+   cursor: pointer;
+   padding: 0.6rem;
+   width: 1.5rem;
+   height: auto;
+   border-radius: 0.1rem;
+   background-color: rgb(59, 58, 58);
+   color: aliceblue;
+}
+.searchIcon-SearchBar:hover{
+    cursor: pointer;
+    padding: 0.6rem;
+    width: 1.5rem;
+    height: auto;
+    border-radius: 0.1rem;
+    background-color: rgb(93, 91, 91);
+    color: aliceblue;
+ }
+ .micIcon-searchbar{
+   /* cursor: pointer; */
+   padding: 0.4rem;
+   height: auto;
+   width: 1.5rem;
+   margin-left: 2px;
+   /* width: 2rem; */
+   border-radius: 50%;
+   background-color: rgb(59, 58, 58);
+   color: rgb(255, 255, 255);
+ }
+
+ .micIcon-searchbar:hover{
+    cursor: pointer;
+   padding: 0.4rem;
+   height: auto;
+   width: 1.5rem;
+   /* width: 2rem; */
+   border-radius: 50%;
+   background-color: rgb(108, 106, 106);
+   color: rgb(255, 255, 255);
+  }
+  

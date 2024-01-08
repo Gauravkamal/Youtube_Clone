@@ -1,0 +1,66 @@
+.home-container{
+    display: flex;
+    min-width: 100vw; 
+    width: 100%;
+    /* min-width: 200vw; */
+    min-width: 1000px;
+    background-color: rgb(19,19,19);
+    color: aliceblue;
+    position:relative;
+    overflow: auto;
+    border-top: 2px solid rgb(90, 89, 89);
+    /* border: rgb(28, 8, 184) solid 4px; */
+  }
+  .home-container2{
+   width:calc(100vw - 5rem);
+   width: 100%;
+   height: calc(100vh - 3.5rem);
+ 
+   overflow-y: auto;
+   /* border: red solid 1px; */
+  }
+  .suggestion-container{
+    color: rgba(255, 255, 255, 0.514);
+   height: 2rem;
+    background-color: rgb(37,37,37);
+    position: sticky;
+    display:flex;
+    overflow-x:auto;
+    overflow-y: auto;
+    top: 0;
+    border-bottom: 2px solid rgba(128,128,128,0.27);
+    
+  }
+  .suggestion-text-div{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46,46,46);
+    margin: auto 0.5rem;
+    height: 1rem;
+    width: auto;
+    padding: 0.3rem;
+    display: flex;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    border-radius: 45px;
+    cursor: pointer;
+    
+  }
+
+  .suggestion-text-div:hover{
+    background-color: rgb(128,128,128);
+  
+  }
+
+  
+ /* this to hide the scrolbar  */
+  .suggestion-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.suggestion-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* this is to hide the scrolbar */

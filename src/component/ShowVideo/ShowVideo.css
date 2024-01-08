@@ -1,0 +1,48 @@
+.video-showvideo{
+    /* border: red 2px solid; */
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin:0.4rem;
+    margin-bottom: 0;
+    width: calc(100% - 0.8rem);
+    height: 70%;
+    border: 1px solid rgba(128,128,128,0.532);
+} 
+.video-description{
+    display:flex;
+    height: 4rem;
+    margin: auto auto;
+}
+.video-details{
+  width: 80%;
+  color: aliceblue;
+  padding: 0.1rem;
+  margin: 0.1rem;
+  height: fit-content;
+}
+.video-details p{
+   text-align: clip;
+    margin: 0;
+  }
+  .vid-view-upload-time{
+      font-size: small;
+      color: rgba(250, 235, 215,0.555);
+      margin: 0.2rem;
+      display: flex;
+    }
+    .title-vid-showvideo{
+        margin: 0;
+    font-size:large;
+    font-weight: bolder;
+    display: flex;
+    color: antiquewhite;
+    text-align: clip;
+}
+
+.dot{
+  height: 2px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: white;
+  margin: auto 0.5rem;
+}

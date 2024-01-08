@@ -1,0 +1,106 @@
+.container-Navbar{
+    border: 1px solid;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    min-width: 1000px;
+    height: calc(3.5rem-2px);
+    background-color:rgb(34, 33, 33);
+    justify-content: space-between;
+}
+
+.container-Navbar img{
+    height: 40px;
+    margin-right: 2px;
+}
+.Burger_logo_Navbar{
+    display:flex;
+    height:auto;
+}
+.burger{
+ display: flex;
+ flex-direction: column;
+ cursor: pointer;
+ justify-content: space-evenly;
+ margin: 0.2rem;
+ padding: 0.5rem;
+ border: 1px solid transparent;
+ margin-left: 0.5rem;
+ margin-right: 0.7rem;
+ /* border-radius: 10%; */
+ /* border-color: aliceblue; */
+}
+.burger p{
+    margin: 0.5px;
+    width: 1rem;
+    height: 0.1rem;
+    background-color: white;
+}
+.logo-div-Navbar{
+    display: flex;
+    text-decoration: none;
+    
+}
+.logo-title-navbar{
+ margin: auto;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ font-size: larger;
+ font-style: normal;
+}
+.searchbar-div{
+    display: flex;
+  margin: 0 auto;
+
+}
+.feature-signin{
+    display: flex;
+    flex-direction:row;
+    /* border: 1px red solid; */
+    color: white;
+}
+.feature-signin div{
+    display: flex;
+    flex-direction:row;
+    /* border: 1px red solid; */
+    color: white;
+}
+
+.feature-div{
+    display: flex;
+    height: 100%;
+    width: auto;
+    font-size:25px;
+    margin: 0 10px 0 10px;
+    
+    justify-content: space-between;
+}
+.video-style{
+    cursor: pointer;
+ width: auto;
+ height: auto;
+ margin: 5px;
+}
+.dot-style{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+.bell-style{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+.video-style:hover{
+    color: red;
+}
+.dot-style:hover{
+    color: red;
+}
+.bell-style:hover{
+    color: red;
+}

@@ -1,0 +1,53 @@
+.home-container{
+    display: flex;
+    min-width: 100vw; 
+    width: 100%;
+    /* min-width: 200vw; */
+    min-width: 1000px;
+    background-color: rgb(19,19,19);
+    color: aliceblue;
+    position:relative;
+    overflow: auto;
+    border-top: 2px solid rgb(90, 89, 89);
+    /* border: rgb(28, 8, 184) solid 4px; */
+  }
+  .home-container2{
+   width:calc(100vw - 5rem);
+   width: 100%;
+   height: calc(100vh - 3.5rem);
+ 
+   overflow-y: auto;
+   /* border: red solid 1px; */
+  }
+
+  .video-box-app{
+    width: 21rem;
+    height: 17rem;
+    margin-bottom: 1rem;
+    border: 2px solid transparent; 
+  }
+
+  .Chanel_logo_App{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 100%;
+    background-color:rgb(224,227,214);
+    display: flex;
+    margin: auto;
+  }
+
+   .fstChar_logo_App{
+    margin: auto ;
+    align-items: center;
+    color: rgb(247, 242, 242);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .fstChar_logo_App p{
+    margin: auto;
+    font-size: large;
+    color: rgba(224, 24, 24, 0.8);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
