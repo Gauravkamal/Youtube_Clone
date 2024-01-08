@@ -1,0 +1,19 @@
+creating react app
+
+installing some others modules: axioms,gapi-script,moment,react-circular-progressbar,react-dom,react-google-login,react-icons,react-redux,react-router-dom,redux,redux-thunk, bootstrap
+
+
+for the backend modules
+
+npm i bcryptjs
+npm i body-parser
+npm i cors
+npm i dotenv
+npm i env
+ npm 1 express
+npm i express-fileupload
+npm i fs
+npm i jsonwebtoken
+npm i mongoose
+npm i multer
+npm i nodemon
